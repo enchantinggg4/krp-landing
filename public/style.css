@@ -1,0 +1,29 @@
+html:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  z-index: -2;
+  background-image: url("https://www.itl.cat/pngfile/big/205-2050209_medieval-minecraft-castle-wallpaper-collection-minecraft-builds.png");
+  background-size: cover;
+}
+
+html:after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-size: cover;
+}
+
+li {
+  color: #ddd;
+}

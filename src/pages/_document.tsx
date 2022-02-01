@@ -7,7 +7,11 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang={AppConfig.locale}>
-        <Head />
+        <Head>
+          {/*<link rel="shortcut icon" href="/static/favicon.png" />*/}
+          <link rel="icon" type="image/png" href="/favicon.png" />
+          <link rel="stylesheet" href="/style.css"/>
+        </Head>
         <body>
           <Main />
           <NextScript />
